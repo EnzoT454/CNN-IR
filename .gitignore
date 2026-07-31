@@ -1,0 +1,112 @@
+# macOS et fichiers système
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# Secrets et configuration locale
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+downloads/
+develop-eggs/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environnements virtuels et Conda locaux
+.venv/
+venv/
+env/
+ENV/
+.conda/
+.mamba/
+.python-version
+
+# Caches, tests et couverture
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Notebooks Jupyter
+.ipynb_checkpoints/
+
+# IDE et éditeurs
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# Journaux et fichiers temporaires
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# Données téléchargées ou générées
+nist_dataset/inchi/
+nist_dataset/jdx/
+sdbs_dataset/gif/
+sdbs_dataset/png/
+sdbs_dataset/other/
+processed_dataset/
+augmented_dataset/
+
+# Modèles, checkpoints et résultats d'expériences
+models/
+scripts/models/
+checkpoints/
+searched_parameters/
+wandb/
+runs/
+tensorboard/
+*.h5
+*.hdf5
+*.keras
+*.ckpt
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+
