@@ -44,6 +44,9 @@ CNN 1D
 Le modèle ne détermine pas l'identité complète d'une molécule. Il prédit des
 éléments de structure tels que « alcool », « arène » ou « ester ».
 
+La stratégie pour transformer ce code expérimental en outil applicable à de
+nouveaux spectres est détaillée dans la [feuille de route d'inférence](ROADMAP.md).
+
 ## Architecture du modèle
 
 Chaque spectre est représenté par 600 intensités couvrant l'intervalle
